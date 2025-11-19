@@ -20,7 +20,7 @@ def pausa(segundos):
     time.sleep(segundos)
            
 def senha_usuario():
-    print("=== Cadastro de novo colaborador ===")
+    print("\n=== Cadastro de novo colaborador ===")
     
     nome = input("Digite o primeiro nome do colaborador: ").strip().lower()
     while nome == "":
